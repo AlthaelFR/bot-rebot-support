@@ -1,4 +1,4 @@
-const TOKEN = "NTQ4MjA5NzMzNzUyODQ4Mzk0.XL7PaQ.waqIgyDM6gYumTnl5WAkwMPq8Ig";
+const TOKEN = process.env.TOKEN;
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const chalk = require('chalk')
